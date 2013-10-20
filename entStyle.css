@@ -1,0 +1,332 @@
+body{
+	min-width:980px;
+	margin: 0 0 0 0;
+	text-align:center;
+	overflow:hidden;
+	}
+#all{
+	width:100%;
+	margin:0 auto;
+	top:0px;
+}
+
+
+
+.alRight{
+	text-align:right;
+	padding-right:25px;
+	width:33%;
+}
+.alCenter{
+	text-align:center;
+	width:33%;
+}
+.alLeft{
+	text-align:left;
+	padding-left:25px;
+	width:33%;
+}
+
+#headBar{
+	
+	top:0px;
+	
+}
+#menuBar{
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:50px;
+	
+	z-index:30;
+	background:#FFFFFF;
+	box-shadow:3px 0px 10px #000000;
+}
+#arrow{
+	position:fixed;
+	top:50px;
+	width:100%;
+	height:15px;
+	z-index:29;
+	text-align:center;
+}
+#arrowImg{
+	width:40px;
+	height:22px;
+	background:url('images/arrow2.png');
+}
+.arrowTD{
+	width:33%;
+}
+#arrowLeft{
+	text-align:right;
+	padding-right:50px;
+	}
+
+
+
+
+
+#uMenu{
+	cursor:pointer;
+	background-image: url('images/utcTit.jpg');
+	background-repeat: no-repeat;
+	height:50px;
+	width:100px;
+}
+#uMenu:hover{
+background-image: url('images/utcTit2.jpg');
+}
+
+.iconTd{
+	text-align:center;
+	width:80px;
+	}
+.iconTitle{	
+	color:#606060;
+	text-shadow:0px 0px 4px #000000;
+	font-family:Lucida Sans, Arial;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+.iconImg{
+	cursor:pointer;
+
+}
+
+	
+	
+#moiMenu{
+	position:fixed;
+	top:65px;
+	right:20px;
+	width:320px;
+	height:400px;
+	background:url('images/fondMenu.jpg');
+	color:#606060;
+	z-index:50;
+	display:none;
+	box-shadow:0px 0px 20px #000000;
+	border-style:solid;
+	border-width:2px;
+	border-color:#606161;
+}
+
+
+#contentFrame{
+	position:absolute;
+	top:56px;
+	left:0px;
+	width:100%;
+	height:100%;
+	padding-bottom:56px; 
+    box-sizing:border-box;
+}
+
+
+.menuLeftTable{
+	margin: 0 auto 0 0;
+}
+
+.menuRightTable{
+	margin: 0 0 0 auto;
+}
+
+.logOutTD{
+	width:40px;
+	text-align:left;
+	}
+#logOutImg{
+	background:url('images/logOut.gif');
+	width:40px;
+	height:20px;
+	cursor:pointer;
+	border-width:0px;
+	}
+	
+#logOutImg:hover{
+	background:url('images/logOutH.gif');
+	}
+	
+#arrowDownImg{
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	
+}
+#arrowDownTD{
+	width:20px;
+	text-align:center;
+}
+
+#miniPhotoTD{
+	width:32px;
+	}
+#userPhotoMin{
+	border-width:2px;
+	border-color:#000000;
+	border-style:solid;
+	width:32px;
+	height:32px;
+	cursor:pointer;
+}
+#MoiText{
+	
+	text-align:center;
+	font-family:Lucida Sans, Arial;
+	font-weight:bold;
+	padding-right:10px;
+	padding-left:10px;
+}
+#optionsTD{
+	width:80px;
+	text-align:center;
+	font-family:Lucida Sans, Arial;
+	font-weight:bold;
+}
+
+.mail{
+	background:url('images/icones/mailN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+.mail :hover{
+	background:url('images/icones/mailB.png');
+		background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+.dossier{
+	background: url('images/icones/dossierN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.dossier :hover{
+	background: url('images/icones/dossierB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+
+.empTemps{
+	background: url('images/icones/empN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.empTemps:hover{
+	background: url('images/icones/empB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+.moodle{
+	background: url('images/icones/moodleN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.moodle:hover{
+	background: url('images/icones/moodleB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+.filex{
+	background: url('images/icones/filexRN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.filex:hover{
+	background: url('images/icones/filexRB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+.myDocs{
+	background: url('images/icones/filexN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.myDocs:hover{
+	background: url('images/icones/filexB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+.myFav{
+	background: url('images/icones/mesFavN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.myFav:hover{
+	background: url('images/icones/mesFavB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+.intranet{
+	background: url('images/icones/intranetN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.intranet:hover{
+	background: url('images/icones/intranetB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+.trombi{
+	background: url('images/icones/trombiN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.trombi:hover{
+	background: url('images/icones/trombiB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+
+.dsi{
+	background: url('images/icones/filexN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.dsi:hover{
+	background: url('images/icones/filexB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+.accords{
+	background: url('images/icones/filexN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.accords:hover{
+	background: url('images/icones/filexB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
+.assos{
+	background: url('images/icones/assosN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.assos:hover{
+	background: url('images/icones/assosB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+
+.portDoc{
+	background: url('images/icones/docsN.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}	
+.portDoc:hover{
+	background: url('images/icones/docsB.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+	
